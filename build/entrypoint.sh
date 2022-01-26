@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "$USER:x:$UID:$GID:$USER_REAL_NAME:$HOME:/bin/bash" >> /etc/passwd
+echo "$USER_NAME:x:$USER_UID:$USER_GID:$USER_REAL_NAME:$HOME:/bin/bash" >> /etc/passwd
 
 cmd="${1:-coqide}"
 shift
-sudo -i -g \#$GID -u \#$UID $cmd $@
+sudo -i -g \#$USER_GID -u \#$USER_UID $cmd $@
