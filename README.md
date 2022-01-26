@@ -10,10 +10,12 @@ You should be at least a bit familiar with Docker before you use this. I can rea
 1. Bash
 2. Docker
 3. The `xauth` utility
+
    Known as:
 	 - `xorg-xauth` on Arch Linux
 	 - `xauth` on Ubuntu and Debian
 	 - `xorg-x11-xauth` on Fedora
+
 	 For more distributions, please take a look at xauth on [Repology](https://repology.org/project/xauth/versions)
 
 ## Running
